@@ -29,6 +29,6 @@ RUN cp /tmp/tomcat/java-mvn-hello-world-web-app-master/target/mvn-hello-world.wa
 RUN chmod 777 /opt/tomcat/webapps/ROOT.war
 
 VOLUME /opt/tomcat/webapps
-EXPOSE 8080
+EXPOSE 8000
 CMD ["/opt/tomcat/bin/catalina.sh", "run"]
 #
