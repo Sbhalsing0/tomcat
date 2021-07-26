@@ -5,7 +5,7 @@ MAINTAINER Gaurav Agarwal, bharatmicrosystems@gmail.com
 
 RUN yum install -y java-1.8.0-openjdk-devel wget git maven
 
-# Create users and groups
+## Create users and groups
 RUN groupadd tomcat
 RUN mkdir /opt/tomcat
 RUN useradd -s /bin/nologin -g tomcat -d /opt/tomcat tomcat
