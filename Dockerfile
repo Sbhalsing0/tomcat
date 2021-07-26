@@ -23,7 +23,7 @@ RUN chmod g+rwx /opt/tomcat/bin
 RUN chmod g+r /opt/tomcat/bin/*
 
 RUN rm -rf /opt/tomcat/webapps/*
-RUN cd /tmp && git clone https://github.com/FreedalF/tomcat
+RUN cd /tmp && git clone https://github.com/TrupCT/tomcat
 RUN cd /tmp/tomcat/java-mvn-hello-world-web-app-master && mvn clean install
 RUN cp /tmp/tomcat/java-mvn-hello-world-web-app-master/target/mvn-hello-world.war /opt/tomcat/webapps/ROOT.war
 RUN chmod 777 /opt/tomcat/webapps/ROOT.war
