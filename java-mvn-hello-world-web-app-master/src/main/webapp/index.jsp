@@ -9,7 +9,7 @@
   <div class="jumbotron" style="background-color:white">
       <img src="https://octodex.github.com/images/spidertocat.png" alt="Spidertocat"
            class="img-responsive center-block" style="width:250px"/>
-      <h2 class="text-center">Hello World! with GCP- v2.0</h2>
+      <h2 class="text-center">Hello World! with GCP (Sanket) - v2.0</h2>
       <p class="text-center">GCP-CapDev!</p>
   </div>
 </body>
